@@ -1,2 +1,1 @@
-# rsschool-cv
-working repository
+https://Mabby20.github.io/rsschool-cv/cv
