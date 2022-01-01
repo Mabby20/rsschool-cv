@@ -3,15 +3,19 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
+ ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
 .container{
   display: flex;
   width: 1440px;
-  border: 1px solid green;
   margin: 0 auto;
 }
 .container-header{
@@ -20,7 +24,6 @@ body{
 
 .nav{
   width: 1000px;
-  border: 1px solid black;
   margin: 0 auto;
   padding: 0 20px;
 
@@ -30,16 +33,12 @@ body{
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  border: 1px solid white;
   padding: 0;
   margin: 0;
-  
-  
 }
 .nav-link {
   width: 130px;
   padding: 20px 20px;
-  border: 1px solid blue;
   color: black;
   text-align: center;
   text-decoration: none;
@@ -49,12 +48,129 @@ body{
 .nav-item a:hover{
   text-decoration: none;
   color: black;
-  background-color: tomato;
+  background-color: rgb(29, 204, 181);
 }
 .nav-item{
 display: flex;
-border:1px solid blueviolet;
 width: 150px;
 justify-content:center;
+}
+.container-main{
+  display: flex;
+  justify-content:center;
+}
+.left-column{
+
+  width: 250px;
+  background-color:#FAFAFA;
+  margin-right: 50px;
+  padding: 0 15px;
+
 
 }
+.right-column{
+  width: 400px;
+  padding: 0 15px;  
+}
+.section-photo{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.my-photo{
+border-radius: 50%;
+}
+.section-contacts{
+margin-top: 30px;
+
+
+}
+.section-title{
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+text-transform: uppercase;
+padding-bottom: 10px;
+border-bottom: 0.5px solid #6D7081;
+}
+
+.contact-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contact-list a{
+  text-decoration: none;
+  color: black
+}
+.contact-list a:hover{
+  color:brown;
+}
+.contact-item, .language-item, .skills-item, .education-item{
+  margin-top: 11px;
+}
+.important{
+  font-weight: 600;
+}
+.section-language {
+  margin: 40px 0;
+}
+.section-profile{
+  
+  margin:40px 0;
+}
+.section-skills {
+  margin-top: 30px;
+}
+.profile-title{
+text-transform: uppercase;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+margin-bottom: 0;
+}
+.junior-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  font-variant: small-caps;
+  margin-top: 0;
+}
+.section-summary{
+ 
+  margin-bottom: 40px;
+
+}
+ .code-zone{
+   background-color: #FAFAFA;
+ }
+ .section-education {
+   margin-top: 30px;
+  
+ }
+ .container-footer {
+  background-color:#FAFAFA;
+ }
+ .wrap{
+   display: flex;
+   width: 1000px;
+   margin: 0 auto;
+   justify-content: space-around;
+   align-items:center;
+
+ }
+ .my-github{
+  text-decoration: none;
+  color: black;
+ }
+
+ 
